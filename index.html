@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <title>Tabela de Classificação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Tabela de classificação</h1>
+
+    <div class="form-wrapper">
+        <p class="page-subtitle">Nome do Time:
+          <input type="text" id="nometime" name="nometime" placeholder="Nome do time" required>
+          Link da Imagem:
+          <input type="text" id="imagemtime" name="imagemtime" placeholder="Link com escudo do time" required> 
+          <button onclick="adicionarNovoTime()">Adicionar</button>
+        </p>
+      </div>
+
+
+    <table style="width:100%">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Imagem</th>
+                <th>Vitórias</th>
+                <th>Empates</th>
+                <th>Derrotas</th>
+                <th>Pontos</th>
+                <th colspan="4">Ações</th>
+            </tr>
+        </thead>
+        <tbody id="tabelaJogadores">
+            <!--      <tr>
+          <td>Paulo</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td><button onClick="adicionarVitoria()">Vitória</button></td>
+          <td><button onClick="adicionarEmpate()">Empate</button></td>
+          <td><button onClick="adicionarDerrota()">Derrota</button></td>
+        </tr>
+        <tr>
+          <td>Rafa</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td><button onClick="adicionarVitoria()">Vitória</button></td>
+          <td><button onClick="adicionarEmpate()">Empate</button></td>
+          <td><button onClick="adicionarDerrota()">Derrota</button></td>
+        </tr>
+  
+        <tr>
+          <td>Gui</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td><button onClick="adicionarVitoria()">Vitória</button></td>
+          <td><button onClick="adicionarEmpate()">Empate</button></td>
+          <td><button onClick="adicionarDerrota()">Derrota</button></td>
+        </tr> 
+      </tbody> -->
+    </table>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
